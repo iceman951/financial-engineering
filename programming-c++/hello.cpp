@@ -1,6 +1,11 @@
 #include <iostream>
+using namespace std;
 
 int main() {
-  std::cout << "Hello, World!";
+  int age;
+
+  cout << "Input your Age: ";
+  cin >> age;
+  cout << "Your age is " << age << endl;
   return 0;
 }
